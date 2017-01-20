@@ -1,5 +1,11 @@
 /**
  * Created by Crazyyiwen on 1/16/2017.
+ * Given an array of integers, remove the duplicate numbers in it.
+ *
+ * You should:
+ * 1. Do it in place in the array.
+ * 2. Move the unique numbers to the front of the array.
+ * 3. Return the total number of the unique numbers.
  */
 import java.util.Scanner;
 public class DifferentNUmber {
