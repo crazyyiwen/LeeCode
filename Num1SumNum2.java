@@ -1,5 +1,7 @@
 /**
  * Created by Crazyyiwen on 1/15/2017.
+ * Write a function that add two numbers A and B.
+ * You should not use + or any arithmetic operators
  */
 import java.util.Scanner;
 
