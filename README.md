@@ -1,3 +1,3 @@
-# LeeCode
+# LeetCode
 
 More Practice more better
