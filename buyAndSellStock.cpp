@@ -20,3 +20,22 @@ public:
         return dif;
     }
 };
+
+// faster method only one for loop
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int dif = 0;
+        int _size = prices.size();
+        if(_size == 0)
+            return dif;
+        int min_num = prices.at(0);
+        for(int i=1; i<_size; i++){
+            if(prices.at(i) < min_num)
+                min_num = prices.at(i);
+            else if((prices.at(i) - min_num) > dif)
+                dif = prices.at(i) - min_num;
+        }
+        return dif;
+    }
+};
